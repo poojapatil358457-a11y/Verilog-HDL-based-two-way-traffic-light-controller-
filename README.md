@@ -15,3 +15,23 @@ A two-way traffic light controller designed using Verilog HDL and Finite State M
 
 ## Objective
 To control traffic signals for two roads using an FSM.
+Working Principle
+
+The traffic light controller uses a Finite State Machine (FSM) to control traffic signals for two roads.
+
+FSM States
+
+- State 00 – Road 1 Green
+- State 01 – Road 1 Yellow
+- State 10 – Road 2 Green
+- State 11 – Road 2 Yellow
+
+Simulation
+
+The design is verified using a Verilog testbench.
+
+Applications
+
+- Automatic traffic signal control
+- Smart traffic management
+- Digital system design
